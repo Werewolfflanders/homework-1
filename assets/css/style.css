@@ -1,6 +1,19 @@
-#mainSectionContent {
-    width: 950px;
+.container {
+    width:960px;
+    margin-right:auto;
+    margin-left:auto;
+    }
 
+#aboutMe {
+width:960px;
+margin-right: auto;
+margin-left: auto;
+    }
+
+nav {
+    float:right;
 }
 
-h2 {color:red}
+#stickyFooter {
+    border-top: 8px solid #4aaaa5;
+    }
