@@ -8,12 +8,93 @@
 width:960px;
 margin-right: auto;
 margin-left: auto;
+background-color: #ffffff;
     }
 
-nav {
-    float:right;
-}
 
 #stickyFooter {
     border-top: 8px solid #4aaaa5;
+    text-align: center;
+    display: fixed;
     }
+
+#headers {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-display: #ffffff;
+    background-color: #4aaaa5;
+    float: left;
+
+}
+
+#headers2 {
+    float: left;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    background-color: #ffffff;
+
+}
+
+body { 
+ background-image:url(../images/gravel.png)   
+}
+
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #4aaaa4;}
+
+nav {
+    width:100%;
+}
+
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        border-bottom: 3px solid #cccccc;
+        overflow: hidden;
+        background-color: #ffffff;
+      }
+      
+li {
+        float: right;
+        border-right:1px solid #cccccc;
+      }
+      
+li a {
+        display: block;
+        color: #777777;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+li a:hover:not(.active) {
+        background-color: #ffffff;
+      }
+ .active {
+     font-size: larger;
+        color:#ffffff;
+        background-color: #4aaaa5;
+      }
